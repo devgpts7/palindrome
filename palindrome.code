@@ -1,0 +1,21 @@
+
+#include <stdio.h>
+
+int main()
+{ 
+    int x, a, b, c;
+      
+    printf("Enter a number:- ");
+    scanf("%d", &x);
+    
+    
+    c = x % 10 ;
+    b = (x %100) / 10;
+    a =x / 100 ;
+    
+    if (a == c)
+        printf("yes this is a palindrome !!");
+    else
+        printf("not a palindorme");
+    return 0;
+}
